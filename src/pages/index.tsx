@@ -6,6 +6,7 @@ import ButtonLink from '@/components/links/ButtonLink';
 import UnderlineLink from '@/components/links/UnderlineLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
+import { useAccount } from 'wagmi';
 
 /**
  * SVGR Support
@@ -15,12 +16,34 @@ import Seo from '@/components/Seo';
  * @see https://stackoverflow.com/questions/68103844/how-to-override-next-js-svg-module-declaration
  */
 import Vercel from '~/svg/Vercel.svg';
+import { useEffect } from 'react';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
 
 export default function HomePage() {
+  const { address, isConnecting, isDisconnected } = useAccount();
+
+  const fetchDataForAddress = async () => {
+    try {
+      const apiURL = '';
+
+      const response = await fetch(apiURL);
+      const res = await response.json();
+
+      console.log(res);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  useEffect(() => {
+    if (!!address) {
+      fetchDataForAddress();
+    }
+  }, [address]);
+
   return (
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
@@ -35,7 +58,7 @@ export default function HomePage() {
             </h1>
             <p className='mt-2 text-sm text-gray-800'>
               A starter for Next.js, Tailwind CSS, and TypeScript with Absolute
-              Import, Seo, Link component, pre-configured with Husky{' '}
+              Import, Seo, Link component, pre-configured with Husky {address}
             </p>
             <p className='mt-2 text-sm text-gray-700'>
               <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
