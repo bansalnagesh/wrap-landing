@@ -8,7 +8,7 @@ import { publicProvider } from 'wagmi/providers/public';
 
 const { chains, provider } = configureChains(
   [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
-  [alchemyProvider({ apiKey: process.env.ALCHEMY_ID }), publicProvider()]
+  [publicProvider()]
 );
 const { connectors } = getDefaultWallets({
   appName: 'My RainbowKit App',
@@ -22,7 +22,7 @@ const wagmiClient = createClient({
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
-const ConfigWrapper = ({ children }) => {
+const ConfigWrapper = ({ children }: { children: any }) => {
   return (
     <>
       <WagmiConfig client={wagmiClient}>

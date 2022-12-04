@@ -15,7 +15,7 @@ interface Props {
 /* @figmaId 106:5086 */
 export const Frame26: FC<Props> = memo(function Frame26(props = {}) {
   const { address } = useAccount();
-  const [data, setData] = useState();
+  const [data, setData] = useState<any>();
 
   const transaction = data?.total_transactions;
   const profit_loss = data?.pnl;
@@ -47,7 +47,7 @@ export const Frame26: FC<Props> = memo(function Frame26(props = {}) {
   };
 
   useEffect(() => {
-    if (!!address) {
+    if (address) {
       fetchDataFromAPI();
     }
   }, []);
