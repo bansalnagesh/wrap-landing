@@ -1,0 +1,628 @@
+.root {
+  position: relative;
+  width: 1080px;
+  height: 1080px;
+  align-items: flex-start;
+  background-color: #22306d;
+  overflow: hidden;
+}
+.rectangle {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 614px;
+  width: 1080px;
+  height: 466px;
+  background-image: linear-gradient(180deg, #0000 0%, #000f 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.frame26 {
+  position: absolute;
+  left: 72px;
+  top: 168px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+._2022CryptoYearInReview {
+  color: #fffc;
+  font-size: 32px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.myPortfolioIsDownBy98 {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock {
+  color: #fff;
+  font-size: 64px;
+  line-height: 120%;
+  font-weight: 800;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+}
+.labelWrapper {
+  font-size: 64px;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #fff;
+  font-size: 64px;
+  line-height: 120%;
+  font-weight: 800;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #ec6c72;
+  font-size: 64px;
+  line-height: 120%;
+  font-weight: 800;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.generatedByXYZ {
+  color: #fff;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 438px;
+  top: 1008px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame33 {
+  position: absolute;
+  left: 72px;
+  top: 702px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.group13 {
+  position: relative;
+  width: 440px;
+  height: 200px;
+}
+.rectangle3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 440px;
+  height: 200px;
+  border-radius: 24px;
+  background-color: #faf0ea;
+}
+.frame29 {
+  position: absolute;
+  left: 15%;
+  right: 14.7727%;
+  top: 27%;
+  bottom: 27%;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+.group11 {
+  position: relative;
+  width: 92px;
+  height: 92px;
+}
+.ellipse9 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 92px;
+  height: 92px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.unnamed {
+  color: #4b4a4c;
+  font-size: 64px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 15.2174%;
+  right: 15.2174%;
+  top: 15.2174%;
+  bottom: 15.2174%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame27 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+._72 {
+  color: #000;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.noOfRugpulls {
+  color: #000;
+  font-size: 32px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._90ChanceOfGettingRugpulledAgai {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.labelWrapper2 {
+  font-size: 24px;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label3 {
+  color: #fffc;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.label4 {
+  color: #fffc;
+  font-size: 24px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.frame34 {
+  position: absolute;
+  left: 568px;
+  top: 702px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.group15 {
+  position: relative;
+  width: 440px;
+  height: 200px;
+}
+.rectangle5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 440px;
+  height: 200px;
+  border-radius: 24px;
+  background-color: #faf0ea;
+}
+.frame31 {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 27%;
+  bottom: 27%;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+.group112 {
+  position: relative;
+  width: 92px;
+  height: 92px;
+}
+.ellipse92 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 92px;
+  height: 92px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.unnamed2 {
+  color: #000;
+  font-size: 64px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 15.2174%;
+  right: 15.2174%;
+  top: 20.6522%;
+  bottom: 9.7826%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame272 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+._100 {
+  color: #000;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.totalGasPaid {
+  color: #000;
+  font-size: 32px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.highestBeing500 {
+  color: #fffc;
+  font-size: 24px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame36 {
+  position: absolute;
+  left: 568px;
+  top: 414px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.group17 {
+  position: relative;
+  width: 440px;
+  height: 200px;
+}
+.rectangle2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 440px;
+  height: 200px;
+  border-radius: 24px;
+  background-color: #faf0ea;
+}
+.frame28 {
+  position: absolute;
+  left: 18.6364%;
+  right: 27.0455%;
+  top: 27%;
+  bottom: 27%;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+.group113 {
+  position: relative;
+  width: 92px;
+  height: 92px;
+}
+.ellipse93 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 92px;
+  height: 92px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.unnamed3 {
+  color: #4b4a4c;
+  font-size: 64px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 15.2174%;
+  right: 15.2174%;
+  top: 15.2174%;
+  bottom: 15.2174%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame273 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+._400 {
+  color: #000;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.pL {
+  color: #000;
+  font-size: 32px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._90ChanceOfGettingRugpulledAgai2 {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.labelWrapper3 {
+  font-size: 24px;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label5 {
+  color: #fffc;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.label6 {
+  color: #fffc;
+  font-size: 24px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+.frame35 {
+  position: absolute;
+  left: 72px;
+  top: 414px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.group16 {
+  position: relative;
+  width: 440px;
+  height: 200px;
+}
+.rectangle52 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 440px;
+  height: 200px;
+  border-radius: 24px;
+  background-color: #faf0ea;
+}
+.frame312 {
+  position: absolute;
+  left: 15%;
+  right: 18.6364%;
+  top: 27%;
+  bottom: 27%;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+.group114 {
+  position: relative;
+  width: 92px;
+  height: 92px;
+}
+.ellipse94 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 92px;
+  height: 92px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.unnamed4 {
+  color: #000;
+  font-size: 64px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 15.2174%;
+  right: 15.2174%;
+  top: 20.6522%;
+  bottom: 9.7826%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame274 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+._105 {
+  color: #000;
+  font-size: 48px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.transactions {
+  color: #000;
+  font-size: 32px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.onEthereum {
+  color: #fffc;
+  font-size: 24px;
+  line-height: 100%;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.group18 {
+  position: absolute;
+  left: 742px;
+  top: 70px;
+  width: 279.1455px;
+  height: 260.5861px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.frame37 {
+  position: absolute;
+  left: 72px;
+  top: 48px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.cryptoWrapped {
+  color: #fff;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Cabinet Grotesk, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.line1 {
+  width: 89px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  outline: solid 1px #fff3;
+}
